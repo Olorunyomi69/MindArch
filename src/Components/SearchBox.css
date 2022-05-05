@@ -1,0 +1,21 @@
+input{
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}   
+
+select{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
