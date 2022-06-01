@@ -1,5 +1,5 @@
 .header{
-    background-color: #973131;
+    background-color: #304F26;
 }
 .main-nav{
     display: flex;
@@ -9,7 +9,7 @@
     list-style: none;
     font-size: 18px;
     margin: 0;
-    height:100px
+    height: 84px;
 }
 
 
@@ -19,22 +19,26 @@ li{
 }
 a{
     text-decoration: none;
-    color: #f6f6f5;
-    font-size: 24px;
+    color: #f0e7e7;
+    font-size: 20px;
 }
 
-h1{
+.header{
     margin: 0;
     font-size: 60px;
 }
-
+span{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    font-size: 25px;
+}
 p{
-    margin: 0;
-    font-size: 24px;
+    margin: 10px;
+    font-size: 18px;
 }
-.Navbar{
-    background-color: #c5801a;
-}
+
+
 
 .cover{
     display: flex;
@@ -43,11 +47,11 @@ p{
     justify-content: center;
     align-items: center;
     height: 50vh;
+    color: #f0e7e7;
     margin: 0;
 }
 
 .Button{
     display: flex;
-    gap: 150px;
     
 }

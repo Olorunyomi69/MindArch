@@ -8,22 +8,21 @@ const Header = () => {
     <div className='header'>
     <div className='Navbar'>
         <ul className='main-nav'>
-            <li><a href='www.google.com'>Home</a></li>
             <li><a href='www.google.com'>Features</a></li>
-            <li><a href='www.google.com'>Offers</a></li>
-            <li><a href='www.google.com'>LogIn</a></li>
-            <li><a href='www.google.com'>Carts</a></li>
-            <li><button>SignUp</button></li>
+            <li><a href='www.google.com'>Pricing</a></li>
+            <li><a href='www.google.com'>About</a></li>
+            <li><a href='www.google.com'>Contact Us</a></li>
+            <li><button style={{backgroundColor: "darkOlivegreen"}}>LogIn</button></li>
         </ul>
         
     </div>
 
       <div className='cover'>
-        <h1> Art is Beautiful, Art is Life, <br/> Buy Arts.</h1>
-        <p>Browse our collection to find the masterpiece that you desire or<br/> join us today to start selling.</p>
+        <h1 className='header'> <span> ~THE BEST~ </span>Digital Marketing</h1>
+        <p>Completely synergize resource taxing relationships via premier<br/> niche market. Professionally cultivate one to one customer</p>
         <div className='Button'>
-        <Button color={'DarkGoldenrod'}  text={'Explore Artworks'} />
-        <Button color={'white'}  text={'Start Selling'} />
+        <Button color={'yellowgreen'}  text={'Get Started'} />
+        
         </div>
         
       </div>
