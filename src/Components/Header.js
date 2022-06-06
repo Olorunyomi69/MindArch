@@ -3,15 +3,29 @@ import './Header.css'
 import Button from './Button'
 
 const Header = () => {
-  
+  const navBar = [
+    { title: "Features" },
+    { title: "Pricing" },
+    { title: "About" },
+    { title: "Contact Us" }
+]
   return (
     <div className='header'>
     <div className='Navbar'>
         <ul className='main-nav'>
-            <li><a href='www.google.com'>Features</a></li>
-            <li><a href='www.google.com'>Pricing</a></li>
-            <li><a href='www.google.com'>About</a></li>
-            <li><a href='www.google.com'>Contact Us</a></li>
+
+        {
+          navBar.map((item, idx) => {
+              return (
+                <li key={idx} className="nav-item">
+                    <a href={item.path}>
+                        { item.title }
+                    </a>
+                </li>
+              )
+          })
+      }
+          
             <li><button style={{backgroundColor: "darkOlivegreen"}}>LogIn</button></li>
         </ul>
         
@@ -38,3 +52,10 @@ const Header = () => {
 }
 
 export default Header
+
+
+
+
+
+
+

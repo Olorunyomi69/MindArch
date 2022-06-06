@@ -3,8 +3,10 @@ import Header from './Components/Header';
 import Partners from './Partners';
 
 
+
 function App() {
-  return (
+ 
+ return (
     <div>
       <Header/>
       <Partners/>
