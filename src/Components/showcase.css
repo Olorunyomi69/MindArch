@@ -1,0 +1,14 @@
+img{
+    width: 500px;
+    height: auto;
+}
+
+.showcase{
+    display: flex;
+    justify-content: center;
+    background-color: #d3c7c7;
+}
+
+.showcase-text{
+    margin: 50px 0px;
+}

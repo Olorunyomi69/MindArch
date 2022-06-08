@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './Components/Header';
-import Partners from './Partners';
+import Features from './Features';
+import Showcase from './Components/Showcase';
 
 
 
@@ -9,7 +10,8 @@ function App() {
  return (
     <div>
       <Header/>
-      <Partners/>
+      <Features/>
+      <Showcase/>
      
     </div>
     
