@@ -6,9 +6,18 @@ img{
 .showcase{
     display: flex;
     justify-content: center;
-    background-color: #d3c7c7;
+    align-items: center;
+    background-color: #c6e99f71;
 }
 
 .showcase-text{
-    margin: 50px 0px;
+    width: 450px;
+    margin: 50px;
+    text-align: end;
+    
 }
+
+.showcase-text h2:first-of-type{
+    color: #304F26;
+
+}   

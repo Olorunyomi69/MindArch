@@ -2,11 +2,9 @@ button{
   color: #fff;
   font-size: 16px;
   padding: 5px;
-  border: 1px solid yellowgreen;
-  border-radius: 50px;
   margin: 10px 0px;
+  border: 1px solid tomato;
   cursor: pointer;
-  box-shadow: 5px;
   width: 120px;
   height: 40px;
   margin: 10px;
