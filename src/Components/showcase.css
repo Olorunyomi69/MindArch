@@ -1,19 +1,27 @@
-img{
-    width: 500px;
-    height: auto;
+
+
+.section{
+    background-color: #c6e99f71;
+    padding: 20px;
+    text-align: center;
+}
+
+.section h1{
+    color: #304F26;
 }
 
 .showcase{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #c6e99f71;
+    margin: 80px;
+   
 }
 
 .showcase-text{
-    width: 450px;
-    margin: 50px;
-    text-align: end;
+    width: 700px;
+    
+    
     
 }
 
@@ -21,3 +29,10 @@ img{
     color: #304F26;
 
 }   
+
+
+
+
+
+
+
