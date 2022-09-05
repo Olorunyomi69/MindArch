@@ -2,7 +2,7 @@ import React from 'react';
 // import Button from './Button'
 import woman from '../Images/showcase1.png'
 import pills from '../Images/pills.png'
-// import man from '../Images/man.png'
+import expert from '../Images/expert.png'
 import connect from '../Images/connect.png'
 import './showcase.css'
 
@@ -20,7 +20,7 @@ const showcaseText =[
     header: "Meet your expert provider",
     text: "Whether you choose ,medication, therapy or both, get an appointment within 48 hours for a comprehensive evaluation and personalized treatment plan",
     invert: false,
-     // image:man,
+     image:expert,
   },
 
   {
