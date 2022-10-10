@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import Credit from './Credit'
 
 const footer = () => {
     const firstFooter = [
@@ -27,11 +28,12 @@ const footer = () => {
         { title: "TELEHEALTH CONTENT" },
     ]
   return (
-    <div className='footer'>
+    <div>
+<div className='footer'>
         <div className='footer-text'>
             <h1>Mindarch</h1>
-            <p>If you are in a crisis or any ither person may be in danger - don't use this site.
-                 This resources can provide you with immediate help</p>
+            <p>If you are in a crisis or any other person may be in danger - don't use this site.
+                 This resources can't provide you with immediate help</p>
         </div>
 
         <div>
@@ -87,6 +89,11 @@ const footer = () => {
 
 
     </div>
+
+
+<Credit/>
+    </div>
+    
   )
 }
 

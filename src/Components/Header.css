@@ -1,40 +1,5 @@
 .header-wrapper{
     background-color: #304F26;
-    
-}
-.main-nav{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    list-style: none;
-    font-size: 1.2em;
-    margin: 0;
-    height: 84px;
-    
-}
-.nav-item{
-    position: relative;
-}
-.nav-item:first-child{
-    position: absolute;
-    right: 80%;
-}
-
-li{
-    padding: 20px;
-}
-a{
-    text-decoration: none;
-    color: #f0e7e7;
-    font-size: 1.2em;
-}
-a:hover{
-    border-bottom: 2px solid #fff;
-    margin-bottom: 20px;
-    padding-bottom: 5px;
-    cursor: pointer;
-    
 }
 span{
     display: flex;
