@@ -1,15 +1,16 @@
 import React from 'react';
 import './Navbar.css';
 
+
 const navBar = () => {
   const Navigation = [
     { title: "Mindarch"},
     { title: "Home" },
     { title: "About Us" },
     { title: "Services" },
-    { title: "Cases" },
-    { title: "News" }
+    { title: "Cases" }
   ]
+  
   return (
     <div className='Navbar'>
       <ul className='main-nav'>

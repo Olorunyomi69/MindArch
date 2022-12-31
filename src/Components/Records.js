@@ -1,8 +1,8 @@
 import React from 'react'
 import './Records.css'
-const event =() =>{
-  return(Math.round(Math.random() * 10000));
-}
+import { useState } from 'react'
+import { useEffect } from 'react'
+
 const Record = [
     {
       text: 'Events',
@@ -19,13 +19,26 @@ const Record = [
   ]
   
 const Records = () => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if(count <= 3000){
+    setTimeout(() => {  
+      setCount(() => Math.round(Math.random() * 10000));
+    }, 2000);
+  }
+  });
+
+  
+
   return (
     <div className='record-wrapper'>
         {
             Record.map((items,idx) => {
               return (
                 <div className='record' key={idx} >
-                  <h2>{event()}</h2>
+                  <h2 className='num'>{count}</h2>
+                    
                 <p>{items.text}</p>
                 
                 </div>
