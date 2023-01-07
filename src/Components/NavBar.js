@@ -1,34 +1,34 @@
-import React from 'react';
-import './Navbar.css';
+import React from "react";
+import "./Navbar.css";
 
-
+import { HashLink as Link } from "react-router-hash-link";
 const navBar = () => {
   const Navigation = [
-    { title: "Mindarch"},
-    { title: "Home" },
-    { title: "About Us" },
-    { title: "Services" },
-    { title: "Cases" }
-  ]
-  
+    { title: "Mindarch" },
+    { title: "Home", path: "/" },
+    { title: "About Us", path: "#about" },
+    { title: "Services", path: "#services" },
+    { title: "Cases", path: "#cases" },
+  ];
+
   return (
-    <div className='Navbar'>
-      <ul className='main-nav'>
-      {
-          Navigation.map((item, idx) => {
-              return (
-                <li key={idx} className="nav-item">
-                    <a href={item.path}>
-                        { item.title }
-                    </a>
-                </li>
-              )
-          })
-      }
-       <li><button style={{backgroundColor: "tomato"}}>Sign Up</button></li>
+    <div className="Navbar">
+      <ul className="main-nav">
+        {Navigation.map((item, idx) => {
+          return (
+            <li key={idx} className="nav-item">
+              <Link smooth to={item.path}>
+                {item.title}
+              </Link>
+            </li>
+          );
+        })}
+        <li>
+          <button style={{ backgroundColor: "tomato" }}>Sign Up</button>
+        </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default navBar
+export default navBar;

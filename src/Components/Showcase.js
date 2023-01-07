@@ -44,7 +44,7 @@ const showcaseText =[
 
 const Showcase = () => {
   return (
-    <div className='section'>
+    <div className='section' id="services">
       <h1>Getting started is simple</h1>
       <div className='showcase'>
       <div className='showcase-text'>

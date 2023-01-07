@@ -1,56 +1,44 @@
-import React from 'react'
-import './Records.css'
-import { useState } from 'react'
-import { useEffect } from 'react'
+import React from "react";
+import "./Records.css";
+import { useRef } from "react";
 
-const Record = [
-    {
-      text: 'Events',
-    },
-    {
-        text: 'Satisfied Clients',
-    },
-    {
-        text: 'Sponsored',
-    },
-    {
-        text: 'Outreach',
-    }
-  ]
-  
+import Count from "./Count";
+
 const Records = () => {
-  const [count, setCount] = useState(0);
+  const Record = [
+    {
+      text: "Events",
+      count: "5600",
+    },
+    {
+      text: "Satisfied Clients",
+      count: "4800",
+    },
+    {
+      text: "Sponsored",
+      count: "2000",
+    },
+    {
+      text: "Outreach",
+      count: "1200",
+    },
+  ];
 
-  useEffect(() => {
-    if(count <= 3000){
-    setTimeout(() => {  
-      setCount(() => Math.round(Math.random() * 10000));
-    }, 2000);
-  }
-  });
-
-  
+  const recordRef = useRef(null);
 
   return (
-    <div className='record-wrapper'>
-        {
-            Record.map((items,idx) => {
-              return (
-                <div className='record' key={idx} >
-                  <h2 className='num'>{count}</h2>
-                    
-                <p>{items.text}</p>
-                
-                </div>
+    <div className="record-wrapper" ref={recordRef} id="cases">
+      {Record.map((item, idx) => {
+        return (
+          <div className="record" key={idx}>
+            <Count count={item.count} />
 
-              )
-
-            })
-          }
-
-
+            <p>{item.text}</p>
+          </div>
+        );
+      })}
     </div>
-  )
-}
+  );
+};
 
-export default Records
+export default Records;

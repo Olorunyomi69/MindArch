@@ -14,6 +14,7 @@
 
 .Navbar{
     background-color:  #304F26;
+    justify-content: space-between;
 }
 
 
@@ -26,6 +27,11 @@
     right: 80%;
     font-size: 30px;
     
+}
+
+.main-nav:first-child:hover{
+    border-bottom: none;
+      
 }
 
 /* a:first-child{
