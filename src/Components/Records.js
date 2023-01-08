@@ -8,7 +8,7 @@ const Records = () => {
   const Record = [
     {
       text: "Events",
-      count: "5600",
+      count: "3600",
     },
     {
       text: "Satisfied Clients",
@@ -16,7 +16,7 @@ const Records = () => {
     },
     {
       text: "Sponsored",
-      count: "2000",
+      count: "200",
     },
     {
       text: "Outreach",
