@@ -66,9 +66,7 @@ const footer = () => {
           })
       }
 </ul>
-
       </div>
-
 
       <div className='third-footer'>
       <ul className='thirdFooter'>
@@ -86,10 +84,7 @@ const footer = () => {
 </ul>
 
       </div>
-
-
     </div>
-
 
 <Credit/>
     </div>
