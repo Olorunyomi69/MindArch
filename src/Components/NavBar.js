@@ -7,7 +7,7 @@ const navBar = () => {
   const Navigation = [
     { title: "Mindarch" },
     { title: "Home", path: "/" },
-    { title: "About Us", path: "#about" },
+    { title: "About", path: "#about" },
     { title: "Services", path: "#services" },
     { title: "Cases", path: "#cases" },
   ];
