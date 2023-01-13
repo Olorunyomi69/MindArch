@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 
 import { HashLink as Link } from "react-router-hash-link";
+import SignUpModal from "./SignUpModal";
 const navBar = () => {
   const Navigation = [
     { title: "Mindarch" },
@@ -24,7 +25,7 @@ const navBar = () => {
           );
         })}
         <li>
-          <button style={{ backgroundColor: "tomato" }}>Sign Up</button>
+          <SignUpModal />
         </li>
       </ul>
     </div>
