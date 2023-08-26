@@ -4,7 +4,7 @@ import HeaderLady from "../Images/Header-lady.png";
 import HeaderBox from "../Images/Rectangle 80.png";
 import Navbar from "./NavBar";
 import { Outlet } from "react-router-dom";
-import Button from "./Button";
+import Button from "./Button"; 
 
 const Header = () => {
   return (

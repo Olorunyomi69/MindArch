@@ -2,12 +2,13 @@
     margin: 30px;
 }
 
+.features p{
+    font-size: 1.2em;  
+}
 
 .feature-cards{
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
     padding: 10px;
 }
 

@@ -31,7 +31,6 @@ function SignUpModal() {
               style={{
                 flex: 1,
                 paddingLeft: "20px",
-              
               }}
             >
               <img src={SignupImage} alt="Signup" />

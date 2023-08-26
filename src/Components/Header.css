@@ -7,7 +7,7 @@ span{
     margin: 0;
 }
 p{
-    font-size: 18px;
+    font-size: .348em;
     margin: 0;
     text-align: left;
 }
@@ -18,8 +18,9 @@ h2{
     display: flex;
     flex-direction: column;
     color: #fff;
-    font-size: 60px;
+    font-size: 3.75em;
     height: 80vh;
+    align-items: center;
     justify-content: center;
 }
 .Button{
